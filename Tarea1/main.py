@@ -4,7 +4,6 @@ def calcular(texto: str):
 	val2 = ""
 	llenar_val = True
 	i = 0
-
 	operadores = "+-/*orand"
 	operar=""
 
@@ -49,5 +48,5 @@ def calcular(texto: str):
 	return val1	  
 
 #calcular("11101+1101")# El resultado es esta es 42
-calcular("1100100and000010")
+#calcular("1100100and000010")
 # nota no importa si es con espacio o sin espacio
